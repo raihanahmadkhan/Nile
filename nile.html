@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nile</title>
+    <link rel="icon" href="images/tab-icon.jpeg" type="image/jpeg">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/shared/nile-header.css">
+    <link rel="stylesheet" href="styles/pages/nile.css">
+  </head>
+  <body>
+    <div class="nile-header">
+      <div class="nile-header-left-section">
+        <a href="nile.html" class="header-link">
+          <img class="nile-logo"
+            src="images/nile-logo-white.png">
+          <img class="nile-mobile-logo"
+            src="images/nile-mobile-logo-white.png">
+        </a>
+      </div>
+
+      <div class="nile-header-middle-section">
+        <input class="search-bar js-search-input" type="text" placeholder="Search for products">
+
+        <button class="search-button js-search-button">
+          <img class="search-icon" src="images/icons/search-icon.png">
+        </button>
+      </div>
+
+      <div class="nile-header-right-section">
+        <a class="orders-link header-link" href="orders.html">
+          <span class="returns-text">Returns</span>
+          <span class="orders-text">& Orders</span>
+        </a>
+
+        <a class="cart-link header-link" href="checkout.html">
+          <img class="cart-icon" src="images/icons/cart-icon.png">
+          <div class="cart-quantity js-cart-quantity">0</div>
+          <div class="cart-text">Cart</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="products-grid js-products-grid">
+      </div>
+    </div>
+
+    <script type="module" src="scripts/nile.js"></script>
+  </body>
+</html>
